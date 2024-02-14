@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <style>*{
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .main_container{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .col-3{
+            background-color: rgb(69, 22, 144);
+        }
+        .main_image{
+            float: left;
+            width: 170px;
+            height: 180px;
+            margin: 20px;
+            shape-outside: ellipse(20% 50%);
+            clip-path: ellipse(40% 50%);
+            background: lightblue;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .main_image img{
+             width: 100%;
+           
+        }
+        .main_content{
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .main_content h1{
+            color: white;
+            padding-top: 10px;
+            font-size: 25px
+        }
+        .main_content h1 span{
+            font-weight: bold;
+        }
+        .all_content{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .profile{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .profile_sub{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .profile_sub h4{
+            font-size: 18px;
+            color: white;
+            border-bottom: 1px solid #ccc;
+        }
+        .profile_sub p{
+            color: white;
+        }
+        .profile_sub p span{
+            font-weight: bold;
+        }
+        .contact{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .contact h5{
+            font-size: 17px;
+            color: white;
+            border-bottom: 1px solid #ccc;
+        }
+        .contact div{
+            line-height: 1.4;
+            color: white;
+            font-size: 17px;
+        }
+        .contact{
+            line-height: 1;
+        }
+        /*  */
+        .personal{
+            padding-top: 15px;
+        }
+        .personal h5{
+            font-size: 17px;
+            color: white;
+            border-bottom: 1px solid #ccc;
+        }
+        .personal div{
+            font-size: 17px;
+            line-height: 1.4;
+            color: white;
+        }
+        .personal div span{
+            font-weight: bold;
+        }
+        
+        .skills{
+            padding-top: 15px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .skills h5{
+            font-size: 17px;
+            color: white;
+            border-bottom: 1px solid #ccc;
+        }
+        .skills li{
+            font-size: 17px;
+            line-height: 1.4;
+            color: white;
+        }
+        /*  */
+        .experience{
+            padding: 5px 20px;
+        }
+        .experience h3{
+            border-bottom: 1px solid rgb(22, 6, 129);;
+            color: rgb(22, 6, 129);   
+        }
+        .experience h5{
+            line-height: 1;
+            font-size: 18px;
+        }
+        
+        .experience li{
+            line-height: 1;
+            position: relative;
+            list-style: none;
+            color: rgb(0, 0, 0);
+            font-size: 17px;
+            &:after {
+                content: '';
+                height: .4em;
+                width: .4em;
+                background: transparent;
+                border: 1px solid black;
+                display: block;
+                position: absolute;
+                transform: rotate(45deg);
+                top: 0.5em;
+                left: -0.7em
+                
+              }
+        }
+        .for_year{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+        }
+        
+        .for_dis{
+            display: flex;
+            justify-content: space-between;
+        }
+        .for_diss{
+            display: flex;
+            justify-content: space-between;
+        }
+        .for_yearr{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            opacity: 90%;
+        }</style>
+</head>
+
+<body>
+
+    <div class="main_container">
+        <div class="container  ">
+            <div class="row">
+                <div class="col-3 ">
+                    <div class="main_content">
+                        <h1>Guillaume <span>Ouancaux</span></h1>
+                        <div class="main_image">
+                            <img src="https://shmector.com/_ph/18/749226765.png" alt="Profile Picture">
+                        </div>
+                        <div class="all_content">
+                            <div class="profile">
+                                <div class="profile_sub">
+                                    <h4>Profile</h4>
+                                    <p>Innovative and passionate <span>data analyst</span> with over 15 years of experience in
+                                        te chocolate and confectionery industry, seeking to leverage extensive background in
+                                        data analysis, flavour profiling, and market trends. Proficient in Python programming, I
+                                        have successfully developed and maintained multiple scalable and efficient software
+                                        applications. Demonstrated strong problem-solving skills by implementing optimised
+                                        algorithms and data structures in Pythons, significantly improving system performance
+                                    </p>
+                                </div>
+        
+                                <div class="contact">
+                                    <h5>CONTACT DETAILS</h5>
+                                    <div>@ wonky.william123@gmail.com</div>
+                                    <div>+352 123 446 789</div>
+                                    <div>github.com/Willywonka</div>
+                                    <div>49 Paddocks Spring, Farthingtonshire SG2 9UD, UK</div>
+                                </div>
+        
+                                <div class="personal">
+                                    <h5>PERSONAL INFORMATION</h5>
+                                    <div>Citizenship: <span>United Kingdom</span></div>
+                                    <div>Family: <span>Single without children</span></div>
+                                    <div>Language: <span>French</span>(B2), <span>Luxembourgish</span>(A2),
+                                        <span>German</span>(A1), <span>English</span>(native)</div>
+                                </div>
+        
+                                <div class="skills">
+                                    <h5>SKILLS</h5>
+                                    <ul>
+                                        <li>Pythons, SQL, PySpark</li>
+                                        <li>R, Matlab, Azure Databricks</li>
+                                        <li>MS Word, Excel, PowerPoint</li>
+                                        <li>Communication and tea collaboration</li>
+                                    </ul>
+        
+                                </div>
+        
+        
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!--  -->
+    
+                </div>
+                <div class="col-9 ">
+                    <div class="right_content">
+    
+                        <div class="experience">
+                            <h3>EXPERIENCE</h3>
+                            <div class="for_dis">
+                                <div class="sub_heading">
+                                   <h5> SENIOR DATA SCIENTIST at Shockelasrull (Luxembourg),</h5> 
+                                </div>
+                                <div class="for_year">2021,04-pres.</div>
+                            </div>
+                            <ul>
+                                <li>
+                                    Natural language processing, topic modeling, olfactory analysis, building chained processes, automation of reports.
+                                </li>
+                                
+                            </ul>
+                            <!--  -->
+                            <div class="for_dis">
+                                <div class="sub_heading">
+                                   <h5> DATA SCIENTIST at Chocky-Facky SA (United Kingdom).</h5> 
+                                </div>
+                                <div class="for_year">2019.02-2020.11</div>
+                            </div>
+                            <ul>
+                                <li>
+                                    Predictive models for consumer taste preferences, market trend analysis,advanced data visualisation, negotiations with stakeholders.
+                                </li>
+                                
+                            </ul>
+                            <!--  -->
+                            <div class="for_dis">
+                                <div class="sub_heading">
+                                   <h5> DATA ANALYST at Chocolate River Factory (France).</h5> 
+                                </div>
+                                <div class="for_year">2018.02-2018.12</div>
+                            </div>
+                            <ul>
+                                <li>
+                                    Data collection processes, extensive research on carbonation levels, col-laboration with product development teams.
+                                </li>
+                                
+                            </ul>
+    
+    
+                                <!--  -->
+    
+                                <div class="for_dis">
+                                    <div class="sub_heading">
+                                       <h5> RESEARCH SUPPORT at Everlasting Gobstopper Ltd. (Mongolia). </h5> 
+                                    </div>
+                
+                                </div>
+                                <ul>
+                                    <li>
+                                        <div class="for_diss">
+                                            <div class="sub_headingg">Developing and implementing methods for inferring</div> <div class="for_yearr">2016.05-2018.01</div>
+                                        </div> causal networks from time-series, analysis of customer feedback data,mathematical optimisation, machine learning.
+                                    </li>
+                                    
+                                </ul>
+    
+                          <!--  -->
+                          <div class="for_dis">
+                            <div class="sub_heading">
+                               <h5> RESEARCH INTERN at Snozzberry Farms (Italy).</h5> 
+                            </div>
+                            <div class="for_year">2015.04-2015.07</div>
+                        </div>
+                        <ul>
+                            <li>
+                                Dashboard creation with Bl tools, analysis of competitor strategies.
+                            </li>
+                            
+                        </ul>
+                        <!--  -->
+    
+                        <div class="for_dis">
+                            <div class="sub_heading">
+                               <h5> RESEARCHER at Whipple-Scrumptious Fudgemallow Delight Inc. (Guade-loupe). </h5> 
+                            </div>
+        
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="for_diss">
+                                    <div class="sub_headingg">Econometric modelling, market data analysis, translation.</div> <div class="for_yearr">2013.09-2015.01</div>
+                                </div>
+                            </li>
+                            
+                        </ul>
+    
+                        <!--  -->
+                        <div class="for_dis">
+                            <div class="sub_heading">
+                               <h5> INTERN IN LOGISTICS MANAGEMENT at Candy Confections (Egypt). </h5> 
+                            </div>
+        
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="for_diss">
+                                    <div class="sub_headingg">Data management with Microsoft Excel.translation.</div> <div class="for_yearr">2012.042012.12</div>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                        <!--  -->
+                        <div class="for_dis">
+                            <div class="sub_heading">
+                               <h5> EDITOR at BEANS Publishing LLC (Japan).</h5> 
+                            </div>
+                            <div class="for_year">2009.03-2011.10</div>
+                        </div>
+                        <ul>
+                            <li>
+                                Editorial work on dentistry literature, proofreading.
+                            </li>
+                            
+                        </ul>
+                        <!--  -->
+                         
+                
+    
+                
+    
+        
+                        </div>
+                        <!--  -->
+                        <!--  -->
+                        <div class="experience">
+                            <h3>EDUCATIONS</h3>
+                            <h5>MASTER IN ECONOMICS. Mathematical Methods of Economic </h5>
+                            <div class="for_dis">
+                                <div class="sub_heading">
+                                   <h5> Analysis.University of Sweets and Treats.</h5> 
+                                </div>
+                                <div class="for_year">2013-2015</div>
+                            </div>
+                            <ul>
+                                <li>
+                                    Thesis title: The Effect of Beverage Sugar Content on Their Shelf Life
+                                </li>
+                                <li>
+                                    Econometric analysis, survival analysis, panel and time-series models.
+                                </li>
+                                
+                            </ul>   
+                            <!--  -->
+    
+                            <h5>BACHELOR OF SCIENCE IN BIOLOGY. Faculty of Experimental </h5>
+                            <div class="for_dis">
+                                <div class="sub_heading">
+                                   <h5>Confectionery Bolzmann State Technical University.</h5> 
+                                </div>
+                                <div class="for_year">  2006-2010</div>
+                            </div>
+                            <ul>
+                                <li>
+                                    Mathematical modelling, numerical methods, mathematical optimisation.
+                                </li>
+                               
+                                
+                            </ul>   
+    
+                            
+                        </div>
+    
+    
+                        <!--  -->
+                        <!--  -->
+                        <div class="experience">
+                            <h3>ADDITIONAL EDUCATION</h3>
+                            <div class="for_dis">
+                                <div class="sub_heading">
+                                   <h5>STANFORD INTRODUCTION TO FOOD AND HEALTH. Coursera.</h5> 
+                                </div>
+                                <div class="for_year">2021</div>
+                            </div>
+                            <ul>
+                                <li>
+                                    Contemporary trends in eating, cooking workshop, future directions inhealth.
+                                </li>
+                                
+                            </ul> 
+    
+                            <!--  -->
+    
+                            <h5>TOPICAL COURSES - MASTER IN CHOCOLATE SCULPTING. University of</h5>
+                            <div class="for_dis">
+                                <div class="sub_heading">
+                                   <h5>Cocoa</h5> 
+                                </div>
+                                <div class="for_year">  2015-2017</div>
+                            </div>
+                            <ul>
+                                <li>
+                                    Data science, statistics and probability, food science, agricultural science,optimal stopping theory, cultural studies in food.
+                                </li>
+                            
+                            </ul>   
+    
+                            
+                        </div>
+                        <!--  -->
+                        <!--  -->
+                        <div class="experience">
+                            <h3>HOBBIES</h3>
+                            <div>
+                                <div class="sub_heading">
+                                   <h5>Music: imitating birds on the banjo, composing and decomposing(morally).</h5> 
+                                   <h5>Poetry: inventing rhymes, surreal art.</h5>
+                                   <h5>Miscellaneous: zoology, mycology, trainspotting, 1930s horror films.</h5>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+    
+    
+        
+                    </div>
+    
+    
+    
+    
+    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
